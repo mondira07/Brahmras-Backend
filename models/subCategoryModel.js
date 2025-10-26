@@ -1,7 +1,7 @@
 // models/subCategoryModel.js
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
-const updateInventory = require("../utils/godown");
+const updateInventory = require("../utils/updateInventory");
 
 const subCategorySchema = new Schema({
   name: {
